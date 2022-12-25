@@ -16,7 +16,7 @@ Steps for creating new projects through Gitbash:
         1. git init
         2. touch alpha.txt (for creating files in repo)
         3. notepad alpha.txt (for opening file for madification)
-        4. git status (for checking files status means which files to add for stage)
+        4. git status (for checking files status for code-changes)
         5. git add .(for adding file for stage)
         6. git commit -m "name for commit"
         7. git log (to check the log for commit)
@@ -29,6 +29,12 @@ Steps for creating new projects through Gitbash:
      To unstage file and undo file changes:
 	1. git restore --staged filename (to unstage changes)
 	2. git restore filename (to undo changes)
+	
+     To Switch and fetch branches:
+	1. git pull --all (to fetch all branches)
+	2. git branch -a (to list all branches)
+	3. git checkout -b branchname (to checkout particular branch)
+	4. git checkout branchname (to switch branch)
 
      To write a commit message: (usually needed for pull then push scenario):
 	1. press i (i for insert)
