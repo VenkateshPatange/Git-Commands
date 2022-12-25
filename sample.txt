@@ -1,18 +1,18 @@
 Steps for creating new projects through Gitbash:
 
-    for setting up username and email to project (to view who madified the file)
+    For setting up username and email to project (to view who madified the file):
         1. git config --global user.name "Venky"
         2. git config --global user.email patange9955@gmail.com
         3. git config --list (to check user name and email in configuration) //optional
         4. pwd (to check our remote location of directive) //optional
 
-    for creating folders and project repository directive:
+    For creating folders and project repository directive:
         1. mkdir Git_Hub
         2. cd Git_Hub
         3. mkdir Comparison
         4. cd Comparison
 
-    for initialization git and performing push and pull operaion:
+    For initialization git and performing push and pull operaion:
         1. git init
         2. touch alpha.txt (for creating files in repo)
         3. notepad alpha.txt (for opening file for madification)
@@ -25,3 +25,10 @@ Steps for creating new projects through Gitbash:
         10. git remote -v
         11. git push -u origin master (for push the code in github)
         12. git pull
+
+	 To write a commit message: (usually needed for pull then push scenario):
+			1. press i (i for insert)
+			2. write your merge message
+			3. press esc (escape)
+			4. write :wq (write & quit)
+			5. then press enter
