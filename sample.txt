@@ -1,0 +1,27 @@
+Steps for creating new projects through git:
+
+for setting up username and email to project (to view who madified the file)
+1. git config --global user.name "Venky"
+2. git config --global user.email patange9955@gmail.com
+3. git config --list (to check user name and email in configuration) //optional
+4. pwd (to check our remote location of directive) //optional
+
+for creating folders and project repository:
+1. mkdir Git_Hub
+2. cd Git_Hub
+3. mkdir Comparison
+4. cd Comparison
+
+for initialization git, push and pull:
+1. git init
+2. touch alpha.txt (for creating files in repo)
+3. notepad alpha.txt (for opening file for madification)
+4. git status (for checking files status means which files to add for stage)
+5. git add .(for adding file for stage)
+6. git commit -m "name for commit"
+7. git log (to check the log for commit)
+8. create a repository in github site
+9. copy the report path and paste in gitbash (e.g : git remote add origin https://github.com/VenkateshPatange/Comparison.git)
+10. git remote -v
+11. git push -u origin master (for push the code in github)
+12. git pull
