@@ -26,6 +26,10 @@ Steps for creating new projects through Gitbash:
         11. git push -u origin master (for push the code in github)
         12. git pull
 
+    To unstage files and undo changes a file:
+			1. git restore --staged filename (to unstage changes)
+			2. git restore filename (to undo changes)
+
     To write a commit message: (usually needed for pull then push scenario):
 	1. press i (i for insert)
 	2. write your merge message
