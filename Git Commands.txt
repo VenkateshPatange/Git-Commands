@@ -32,3 +32,7 @@ Steps for creating new projects through Gitbash:
 	3. press esc (escape)
 	4. write :wq (write & quit)
 	5. then press enter
+	
+    To rename and delete a file:
+    	1. git mv OLD-FILENAME NEW-FILENAME (for rename a file)
+	2. git rm filename (for delete a file)
